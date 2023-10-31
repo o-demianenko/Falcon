@@ -1,0 +1,169 @@
+@media (max-width: 1280px) {
+    .main {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .falcon div.reserve-place {
+        width: 1440px;
+        height: 500px;
+    }
+    
+    .main .spacex {
+        background-size: 25%;
+        background-position-x: 50%;
+        background-position-y: center;
+    }
+
+    .main .spacex .falcon-info {
+        display: flex;
+        max-width: 100%;
+        justify-content: space-around;  
+    }
+
+    .main .spacex h2:first-child {
+        margin-top: 100px;
+    }
+
+    .main .spacex h2:last-of-type {
+        margin-top: 50px;
+    }
+    .main .spacex .performance p {
+        margin: 15px 50px 50px 50px;
+        text-shadow: 3px 3px 3px black;;
+    }
+
+    .main .spacex .performance {
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .main .spacex h2 {
+    text-align: center;
+    text-shadow: 4px 4px 6px black;
+    }
+}
+
+@media(max-width: 1160px) {
+
+    .body {
+        max-width: 1150px !important;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        margin: 20px 0;
+    }
+
+    header img {
+        margin-left: 40px;
+    }
+
+    header nav a.nav-link{
+        margin-left: 20px;
+    }
+    
+    .falcon div.reserve-place {
+       display: none;
+
+    }
+    
+    .main .spacex h2:first-child {
+        margin-top: 70px;
+    }
+
+    .main .spacex h2:last-of-type {
+        margin-top: 70px;
+    }
+   .main .spacex .performance p {
+    margin: 15px 50px 15px 50px;
+   }
+}
+
+@media(max-width: 840px) {
+ 
+    .falcon div.earth-photo {
+        width: 0;
+        height: 0;
+    }
+
+    section.main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .spacex {
+        background-size: 35%;
+        background-position-x: 50%;
+        background-position-y: top;
+    }
+
+    .main .spacex h2:first-child {
+        margin-top: 50px;
+    }
+
+    .main .spacex h2:last-of-type {
+        margin-top: 50px;
+    }
+
+    .main.spacex .performance p {
+        margin: 15px 50px 15px 50px;
+    }
+
+    footer {
+        padding: 50px 0;
+        box-sizing: border-box;
+    }
+
+    footer nav.bottom-nav, p.faq, img, button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer nav.bottom-nav a {
+        margin: 10px 0;
+    }
+    footer img {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 680px) {
+
+    .main .spacex {
+        background-position-y: bottom;
+        background-size: 50%;
+    }
+}
+
+@media(max-width: 530px) {
+    header img, .projects-info, .about-us-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+       header nav a.nav-link{
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 480px) {
+    .main .spacex .falcon-info .values p.value span {
+       display: none;
+    }
+}

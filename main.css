@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('./assets/fonts/Roboto/Roboto-Regular.woff2') format("woff2"),
+           url('./assets/fonts/Roboto/Roboto-Regular.ttf') format("ttf");
+   }
+
+.wrapper {
+    background-color: black;
+    max-width: 1440px;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    background-image: url('./assets/img/earth.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 15%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+
+header nav.projects-info a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+header nav.about-us-links a {
+    text-decoration: none;
+    color:#808080;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.falcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.falcon div.reserve-place {
+    width: 1440px;
+    height: 1000px;   
+   
+}
+
+.falcon h1 {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.falcon h3 {
+    display: flex;
+    margin:auto;
+    width: 55%;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    text-transform: lowercase;  
+}
+
+.main {
+    display: flex;
+   
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.main .spacex {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./assets/img/falcon.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: 80%;
+    background-position-y: center;
+}
+
+.main .spacex h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.main .spacex p {
+    line-height: 180%;
+    font-size: 18px;;
+}
+
+.main .spacex .falcon-info, .performance {
+    display: flex;
+    max-width: 40%;
+    justify-content: space-between;  
+}
+
+.main .spacex h2:first-child {
+    margin-top: 230px;
+}
+
+.main .spacex h2:last-of-type {
+    margin-top: 200px;
+}
+.main .spacex .performance p {
+    margin-bottom: 200px;
+}
+
+.main .spacex .falcon-info .name, .value p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main .spacex .falcon-info .value span {
+    color: #B2B0B2;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+footer nav.bottom-nav, img, p, button {
+margin: 15px 0;
+}
+
+footer nav.bottom-nav a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+footer p {
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer button {
+    width: 260px;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid #FFF;
+}
